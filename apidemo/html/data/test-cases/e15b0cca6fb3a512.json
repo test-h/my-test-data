@@ -1,0 +1,53 @@
+{
+  "uid" : "e15b0cca6fb3a512",
+  "name" : "test_send",
+  "fullName" : "testcase#test_send",
+  "historyId" : "c39cdcd0889621c8164017e2d9150257",
+  "time" : {
+    "start" : 1561247724000,
+    "stop" : 1561247724516,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "发送消息"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "863-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e15b0cca6fb3a512.json",
+  "parameterValues" : [ ]
+}

@@ -1,12 +1,18 @@
 import requests
 import pytest
+import allure
 
-ACCESS_TOKEN = 'xRpCWJ8Ez6giqEpojoIbp-Y-urAR2TN04bngTDHSkD4gdnUB2-ZtIhdvruYQOVfaki4foImLz92XoKd_3KL9AXZv3KCHNZZ1RpP1FSFV4cXDzMzsWMynQUDT5PqMrcKXPuu5x8X6EbiV07rsQ1jSFiBZFQ6iDiiJ6lj-cYEGqQQFFj3-wcG1AeJgYYPKvdLqFGwslRSFl7LD6EIvbwdLJw'
 s = requests.session()
-# @pytest.mark.parametrize("ACCESS_TOKEN",['jc_TD5N37jB4iOkGUvwqK-WGOLvliSVvTwp1jqMKzLsTJTY_1ERbVLsGQ2rdDVHP_foM-1LEaJwLLTBS19Wfe-82GnCVtYQb0eFTCyfEHrEfST5Bhw2W0jGFWCBAa2aEBTpptT4g1TvPnmccQLSJXZmsfq2WlDPCj57cd19uw1ZQ8FPI2Ti_CQ7HUpxJq1zuGWEAoKlnpMPQ1BLZk-SVfg'])
+def get_accesstoken():
+    paylod = {'corpid':'ww010715afc5b7d56f',
+              'corpsecret':'vJs_goMe2pvsiumCFGMloe3jCSfjtW-DKrbTtnEuU-I'}
+    url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken'
+    ACCESS_TOKEN = s.get(url=url,params=paylod,verify = False).json().get("access_token")
+    return ACCESS_TOKEN
+@allure.story("发送消息")
 def test_send():
     url = "https://qyapi.weixin.qq.com/cgi-bin/message/send"
-    payload = {'access_token':ACCESS_TOKEN}
+    payload = {'access_token':get_accesstoken()}
     send_json = {
    "touser" : "HeYing",
    # "toparty" : "PartyID1|PartyID2",
@@ -21,6 +27,7 @@ def test_send():
 
     res = s.post(url,json=send_json,params=payload)
     assert res.json().get('errmsg') == 'ok'
+@allure.story("获取media_id")
 def test_getmediaid():
     files = {'media': ('h.jpeg', open('/Users/h/Downloads/h.jpeg', 'rb'), 'image/jpeg')}
     TYPE = 'image'
@@ -30,12 +37,13 @@ def test_getmediaid():
     # }
     s = requests.session()
     url = 'https://qyapi.weixin.qq.com/cgi-bin/media/upload'
-    payload = {'access_token': ACCESS_TOKEN,'type':TYPE}
+    payload = {'access_token':get_accesstoken(),'type':TYPE}
     res = s.post(url, files=files,params=payload,verify=False).json().get('media_id')
     return res
+@allure.story("发送图片")
 def test_sendimage():
     url = "https://qyapi.weixin.qq.com/cgi-bin/message/send"
-    payload = {'access_token':ACCESS_TOKEN}
+    payload = {'access_token':get_accesstoken()}
     send_json = {
         "touser": "HeYing",
         # "toparty": "PartyID1|PartyID2",

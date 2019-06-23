@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "发送消息",
+    "children" : [ {
+      "name" : "test_send",
+      "uid" : "e15b0cca6fb3a512",
+      "parentUid" : "775e8c450f21e1a1d0d1166b61d16303",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561247724000,
+        "stop" : 1561247724516,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "775e8c450f21e1a1d0d1166b61d16303"
+  }, {
+    "name" : "获取media_id",
+    "children" : [ {
+      "name" : "test_getmediaid",
+      "uid" : "388f9dd70aa1f84a",
+      "parentUid" : "e375912eff1626b95f47c5ff37115878",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561247724521,
+        "stop" : 1561247725066,
+        "duration" : 545
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e375912eff1626b95f47c5ff37115878"
+  }, {
+    "name" : "发送图片",
+    "children" : [ {
+      "name" : "test_sendimage",
+      "uid" : "19d666cea81059e2",
+      "parentUid" : "56ebfa18357faa418947a283d34ee55c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1561247725069,
+        "stop" : 1561247726052,
+        "duration" : 983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "56ebfa18357faa418947a283d34ee55c"
+  } ]
+}

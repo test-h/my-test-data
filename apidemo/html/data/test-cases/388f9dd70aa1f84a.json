@@ -1,0 +1,53 @@
+{
+  "uid" : "388f9dd70aa1f84a",
+  "name" : "test_getmediaid",
+  "fullName" : "testcase#test_getmediaid",
+  "historyId" : "edb10709e0d6eac1783f042bc6da2459",
+  "time" : {
+    "start" : 1561247724521,
+    "stop" : 1561247725066,
+    "duration" : 545
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "获取media_id"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "863-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "388f9dd70aa1f84a.json",
+  "parameterValues" : [ ]
+}

@@ -11,9 +11,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/apidemo$apitest.coverage" NAME="apitest Coverage Results" MODIFIED="1553418781702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/apidemo$py_test_for_testcase_test_send.coverage" NAME="py.test for testcase.test_send Coverage Results" MODIFIED="1561213526312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/apidemo$py_test_in_testcase_py.coverage" NAME="py.test in testcase.py Coverage Results" MODIFIED="1561213532854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/apidemo$py_test_for_testcase_test_getmediaid.coverage" NAME="py.test for testcase.test_getmediaid Coverage Results" MODIFIED="1561000162396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/apidemo$py_test_for_testcase_test_send.coverage" NAME="py.test for testcase.test_send Coverage Results" MODIFIED="1561246952892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/apidemo$py_test_in_testcase_py.coverage" NAME="py.test in testcase.py Coverage Results" MODIFIED="1561247121604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/apidemo$py_test_for_testcase_test_get_accesstoken.coverage" NAME="py.test for testcase.test_get_accesstoken Coverage Results" MODIFIED="1561246878404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/apidemo$py_test_for_testcase_test_getmediaid.coverage" NAME="py.test for testcase.test_getmediaid Coverage Results" MODIFIED="1561246977310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/apidemo$apitest2.coverage" NAME="apitest2 Coverage Results" MODIFIED="1554000815334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/apidemo$py_test_for_testcase_test_vxapi.coverage" NAME="py.test for testcase.test_vxapi Coverage Results" MODIFIED="1554002633129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/apidemo$py_test_for_demo_test_get_str.coverage" NAME="py.test for demo.test_get_str Coverage Results" MODIFIED="1560954788361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -24,13 +25,18 @@
       <file leaf-file-name="testcase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="230" selection-start-line="3" selection-start-column="230" selection-end-line="3" selection-end-column="230" />
+            <state relative-caret-position="266">
+              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
@@ -72,8 +78,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="67" />
+    <option name="x" value="458" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="770" />
   </component>
@@ -89,6 +95,11 @@
               <item name="apidemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="apidemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="apidemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apidemo" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -102,7 +113,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,7 +128,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.py.test in testcase.py">
-    <configuration name="py.test for demo.test_get_str" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for testcase.test_get_accesstoken" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="apidemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +140,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;demo.test_get_str&quot;" />
+      <option name="_new_target" value="&quot;testcase.test_get_accesstoken&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test for testcase.test_getmediaid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -196,16 +207,16 @@
       <item itemvalue="Python tests.py.test for testcase.test_sendimage" />
       <item itemvalue="Python tests.py.test for testcase.test_send" />
       <item itemvalue="Python tests.py.test for testcase.test_getmediaid" />
-      <item itemvalue="Python tests.py.test for demo.test_get_str" />
       <item itemvalue="Python tests.py.test in testcase.py" />
+      <item itemvalue="Python tests.py.test for testcase.test_get_accesstoken" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.py.test in testcase.py" />
-        <item itemvalue="Python tests.py.test for testcase.test_send" />
-        <item itemvalue="Python tests.py.test for testcase.test_sendimage" />
         <item itemvalue="Python tests.py.test for testcase.test_getmediaid" />
-        <item itemvalue="Python tests.py.test for demo.test_get_str" />
+        <item itemvalue="Python tests.py.test for testcase.test_send" />
+        <item itemvalue="Python tests.py.test for testcase.test_get_accesstoken" />
+        <item itemvalue="Python tests.py.test for testcase.test_sendimage" />
       </list>
     </recent_temporary>
   </component>
@@ -223,54 +234,54 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_testcase_test_sendimage - 2019.06.20 at 10h 58m 04s.xml">
-      <configuration name="py.test for testcase.test_sendimage" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_testcase_test_getmediaid - 2019.06.20 at 10h 59m 59s.xml">
-      <configuration name="py.test for testcase.test_getmediaid" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_testcase_test_sendimage - 2019.06.20 at 11h 00m 32s.xml">
-      <configuration name="py.test for testcase.test_sendimage" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_testcase_test_getmediaid - 2019.06.20 at 11h 01m 44s.xml">
-      <configuration name="py.test for testcase.test_getmediaid" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_testcase_test_getmediaid - 2019.06.20 at 11h 07m 59s.xml">
-      <configuration name="py.test for testcase.test_getmediaid" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_testcase_test_getmediaid - 2019.06.20 at 11h 09m 23s.xml">
-      <configuration name="py.test for testcase.test_getmediaid" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_testcase_test_sendimage - 2019.06.20 at 11h 09m 42s.xml">
-      <configuration name="py.test for testcase.test_sendimage" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_testcase_py - 2019.06.22 at 22h 13m 15s.xml">
-      <configuration name="py.test in testcase.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_testcase_test_send - 2019.06.22 at 22h 25m 27s.xml">
       <configuration name="py.test for testcase.test_send" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_testcase_py - 2019.06.22 at 22h 25m 35s.xml">
       <configuration name="py.test in testcase.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_for_testcase_test_get_accesstoken - 2019.06.23 at 07h 40m 10s.xml">
+      <configuration name="py.test for testcase.test_get_accesstoken" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase_test_get_accesstoken - 2019.06.23 at 07h 40m 49s.xml">
+      <configuration name="py.test for testcase.test_get_accesstoken" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase_test_get_accesstoken - 2019.06.23 at 07h 41m 03s.xml">
+      <configuration name="py.test for testcase.test_get_accesstoken" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase_test_get_accesstoken - 2019.06.23 at 07h 41m 19s.xml">
+      <configuration name="py.test for testcase.test_get_accesstoken" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase_test_send - 2019.06.23 at 07h 41m 50s.xml">
+      <configuration name="py.test for testcase.test_send" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase_test_send - 2019.06.23 at 07h 42m 34s.xml">
+      <configuration name="py.test for testcase.test_send" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_for_testcase_test_getmediaid - 2019.06.23 at 07h 42m 58s.xml">
+      <configuration name="py.test for testcase.test_getmediaid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_testcase_py - 2019.06.23 at 07h 45m 24s.xml">
+      <configuration name="py.test in testcase.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="67" width="1280" height="770" extended-state="0" />
+    <frame x="787" y="23" width="1280" height="770" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.2678788" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.56315005" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24798061" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.56166416" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32986626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25605816" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -289,18 +300,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/testcase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="13" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -311,15 +315,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest2.py">
+    <entry file="file://$PROJECT_DIR$/testcase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="30">
+          <caret line="3" column="230" selection-start-line="3" selection-start-column="230" selection-end-line="3" selection-end-column="230" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest2.py" />
     <entry file="file://$PROJECT_DIR$/testcase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -330,22 +361,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="13" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/apitest2.py" />
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -373,55 +390,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="13" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="13" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/apitest2.py" />
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/apitest2.py" />
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
     <entry file="file://$USER_HOME$/venv/apidemo/lib/python3.6/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
@@ -429,13 +404,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
     <entry file="file://$PROJECT_DIR$/111.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/http/cookiejar.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,15 +456,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/apitest2.py" />
     <entry file="file://$PROJECT_DIR$/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -503,17 +464,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apitest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/apitest.py" />
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="230" selection-start-line="3" selection-start-column="230" selection-end-line="3" selection-end-column="230" />
+        <state relative-caret-position="266">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

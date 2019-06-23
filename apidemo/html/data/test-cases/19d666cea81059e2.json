@@ -1,0 +1,53 @@
+{
+  "uid" : "19d666cea81059e2",
+  "name" : "test_sendimage",
+  "fullName" : "testcase#test_sendimage",
+  "historyId" : "a6f27962d8e07f136f160433f9f0cb8e",
+  "time" : {
+    "start" : 1561247725069,
+    "stop" : 1561247726052,
+    "duration" : 983
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "发送图片"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "863-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19d666cea81059e2.json",
+  "parameterValues" : [ ]
+}

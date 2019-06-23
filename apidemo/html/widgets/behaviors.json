@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "775e8c450f21e1a1d0d1166b61d16303",
+    "name" : "发送消息",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e375912eff1626b95f47c5ff37115878",
+    "name" : "获取media_id",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "56ebfa18357faa418947a283d34ee55c",
+    "name" : "发送图片",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
